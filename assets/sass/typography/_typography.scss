@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"Dugout Sans Bold";
+    src:url("assets/fonts/DugoutSans_Bd.woff2") format("woff2"),url("assets/fonts/DugoutSans_Bd.woff") format("woff"),url("assets/fonts/DugoutSans_Bd.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Dugout Sans";
+    src:url("assets/fonts/DugoutSans_Rg.woff2") format("woff2"),url("assets/fonts/DugoutSans_Rg.woff") format("woff"),url("assets/fonts/DugoutSans_Rg.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+
+p {
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Dugout Sans Bold";
+}
