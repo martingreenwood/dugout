@@ -469,7 +469,7 @@ button {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: yellow;
+  color: #fccb00;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -488,7 +488,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: yellow;
+  color: #fccb00;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -1466,10 +1466,9 @@ h1, h2, h3, h4, h5 {
 .main-navigation li {
   float: left;
   position: relative;
-  margin-left: 10px;
   margin-bottom: 0; }
   .main-navigation li:last-of-type {
-    background-color: yellow; }
+    background-color: #fccb00; }
   .main-navigation li:first-of-type {
     margin-left: 0; }
 
@@ -1478,7 +1477,7 @@ h1, h2, h3, h4, h5 {
   text-decoration: none;
   padding: 10px 15px;
   font-family: 'Dugout Sans Bold';
-  font-size: 2rem; }
+  font-size: 1.8rem; }
 
 /* Small menu. */
 .menu-toggle,
@@ -1491,10 +1490,15 @@ h1, h2, h3, h4, h5 {
 .hamburger {
   padding: 0;
   position: fixed;
-  right: 30px;
-  top: 72px;
-  margin-top: -13px;
+  right: 31px;
+  top: 25px;
   z-index: 9999; }
+  @media (min-width: 1024px) {
+    .hamburger {
+      top: 72px; } }
+  @media (min-width: 768px) {
+    .hamburger {
+      top: 50px; } }
 
 .main-navigation.toggled .menu-main-container ul {
   padding-top: 20px; }
@@ -1534,7 +1538,7 @@ h1, h2, h3, h4, h5 {
 =            header            =
 ==============================*/
 #masthead {
-  padding: 40px 0;
+  padding: 20px 0;
   position: fixed;
   background: transparent;
   top: 0;
@@ -1546,13 +1550,22 @@ h1, h2, h3, h4, h5 {
   -ms-transition: all .25s linear;
   -o-transition: all .25s linear;
   transition: all .25s linear; }
+  @media (min-width: 1024px) {
+    #masthead {
+      padding: 40px 0; } }
   #masthead.change {
     background-color: #eeeeee; }
+  #masthead .site-branding {
+    width: 50%; }
+    @media (min-width: 1160px) {
+      #masthead .site-branding {
+        width: 22%; } }
+    #masthead .site-branding img {
+      width: 100%;
+      max-width: 210px; }
   @media (max-width: 1160px) {
     #masthead {
-      background-color: rgba(238, 238, 238, 0.8); }
-      #masthead .site-branding {
-        width: 75%; } }
+      background-color: rgba(238, 238, 238, 0.95); } }
 
 /*=================================
 =            elemenbts            =
@@ -1578,10 +1591,16 @@ section {
     margin: 0;
     margin-bottom: 30px;
     text-transform: uppercase; }
+  @media (max-width: 1024px) {
+    section .row h1 {
+      font-size: 2.8rem; } }
   section .row:last-of-type {
     margin-bottom: 0; }
   section p {
     font-size: 3rem; }
+    @media (max-width: 1160px) {
+      section p {
+        font-size: 1.8rem; } }
 
 #banner {
   height: 100vh;
@@ -1592,22 +1611,40 @@ section {
   @media (min-width: 768px) {
     #banner {
       min-height: 900px; } }
+  @media (max-width: 1160px) {
+    #banner article {
+      width: 64%; } }
+  @media (min-width: 1160px) {
+    #banner article {
+      width: 44%; } }
   @media (max-width: 1024px) {
     #banner {
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat; }
-      #banner .table {
-        padding-top: 200px;
-        padding-bottom: 100px;
-        background-color: rgba(238, 238, 238, 0.8); }
+      background-repeat: no-repeat;
+      background-image: url() !important; }
       #banner article {
         width: 100%; } }
-  @media (max-width: 1160px) {
-    #banner article {
-      width: 64%; } }
+  #banner article {
+    margin-left: 0; }
+  #banner .mobile-banner {
+    display: none;
+    margin-bottom: 20px; }
+    @media (max-width: 1024px) {
+      #banner .mobile-banner {
+        display: block; } }
+    @media (min-width: 1024px) {
+      #banner .mobile-banner {
+        display: none; } }
+  @media (max-width: 1024px) {
+    #banner h1 {
+      font-size: 2.8rem; } }
   #banner p {
     font-size: 3rem; }
+    @media (max-width: 1024px) {
+      #banner p {
+        font-size: 1.8rem;
+        margin-bottom: 10px; } }
   #banner h3, #banner p {
     color: #333; }
 
@@ -1618,10 +1655,8 @@ section {
   #about .logos {
     margin-top: 50px;
     border-top: 1px solid black;
-    border-bottom: 1px solid black; }
-    @media (max-width: 1024px) {
-      #about .logos {
-        text-align: center; } }
+    border-bottom: 1px solid black;
+    text-align: center; }
     #about .logos ul {
       list-style: none;
       margin: 0;
@@ -1631,7 +1666,7 @@ section {
         display: inline-block;
         vertical-align: middle;
         text-align: center;
-        width: 9.73439%;
+        width: 9%;
         margin: 0;
         padding: 5px;
         box-sizing: border-box; }
@@ -1642,14 +1677,17 @@ section {
         #about .logos ul li img {
           display: block;
           width: auto;
-          height: 75px;
+          max-height: 75px;
           margin: 0 auto; }
 
 #b2bvideo {
   padding-top: 25px;
   padding-bottom: 75px; }
+  #b2bvideo .wp-video {
+    min-width: 100%;
+    width: 100%; }
   #b2bvideo a {
-    background-color: yellow;
+    background-color: #fccb00;
     color: black;
     font-family: "Dugout Sans Bold";
     font-size: 2rem;
@@ -1670,7 +1708,7 @@ section {
     #work .stats h3 {
       text-transform: uppercase; }
     #work .stats span {
-      color: yellow;
+      color: #fccb00;
       font-size: 10rem;
       font-family: "Dugout Sans Bold";
       line-height: 1; }
@@ -1680,7 +1718,7 @@ section {
 
 #videos_bottom, #videos_top {
   padding: 75px 0;
-  background-color: yellow; }
+  background-color: #fccb00; }
   #videos_bottom .columns, #videos_top .columns {
     text-align: center; }
 
@@ -1689,7 +1727,7 @@ section {
   padding: 75px 0;
   color: white; }
   #video_content a {
-    background-color: yellow;
+    background-color: #fccb00;
     color: black;
     font-family: "Dugout Sans Bold";
     font-size: 2rem;
@@ -1716,10 +1754,8 @@ section {
   width: 100%;
   padding: 20px 0;
   border-top: 1px solid white;
-  border-bottom: 1px solid white; }
-  @media (max-width: 1024px) {
-    #brand_logos ul, #partners_logos ul {
-      text-align: center; } }
+  border-bottom: 1px solid white;
+  text-align: center; }
   #brand_logos ul li, #partners_logos ul li {
     display: inline-block;
     vertical-align: middle;
@@ -1750,7 +1786,7 @@ section {
 #big_image {
   padding-bottom: 75px; }
   #big_image a {
-    background-color: yellow;
+    background-color: #fccb00;
     color: black;
     font-family: "Dugout Sans Bold";
     font-size: 2rem;
@@ -1766,7 +1802,7 @@ section {
   padding: 75px 0;
   color: white; }
   #press a {
-    background-color: yellow;
+    background-color: #fccb00;
     color: black;
     font-family: "Dugout Sans Bold";
     font-size: 2rem;
@@ -1800,14 +1836,16 @@ section {
         margin: 0;
         line-height: 1;
         margin-bottom: 5px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        letter-spacing: 0.1rem; }
       #team .og-grid li h4 {
         font-size: 1.6rem;
         padding: 0;
         margin-bottom: 20px;
         line-height: 1;
         text-transform: uppercase;
-        color: yellow; }
+        color: black;
+        letter-spacing: 0.1rem; }
       #team .og-grid li > a,
       #team .og-grid li > a img {
         border: none;
@@ -1903,14 +1941,16 @@ section {
       padding: 0;
       margin: 0;
       line-height: 1;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      letter-spacing: 0.1rem; }
     #team .og-grid .og-fullimg h4 {
       font-size: 2.5rem;
       padding: 0;
       margin-bottom: 20px;
       line-height: 1;
       text-transform: uppercase;
-      color: yellow; }
+      letter-spacing: 0.1rem;
+      color: black; }
     #team .og-grid .og-details p {
       font-size: 1.8rem;
       white-space: pre-wrap; }
@@ -1921,11 +1961,11 @@ section {
       display: inline-block;
       margin: 30px 0 0;
       outline: none;
-      background-color: yellow;
+      background-color: #fccb00;
       color: black; }
       @media (max-width: 1024px) {
         #team .og-grid .og-fullimg a {
-          margin-top: 10px; } }
+          display: none; } }
     #team .og-grid .og-details a::before {
       content: '\2192';
       display: inline-block;
@@ -1981,7 +2021,7 @@ section {
       margin-bottom: 0;
       line-height: 1;
       font-family: 2rem;
-      color: yellow; }
+      color: #fccb00; }
 
 #findus {
   padding: 75px 0 0 0;
@@ -2003,8 +2043,8 @@ section {
     display: inline-block;
     width: auto;
     margin-left: 40px; }
-    #findus img:first-of-type {
-      margin-left: 0; }
+  #findus a:first-of-type img {
+    margin-left: 0; }
 
 #contact {
   padding: 75px 0;
@@ -2013,7 +2053,7 @@ section {
   #contact h1 {
     margin-bottom: 0; }
   #contact .wpcf7 {
-    background-color: yellow;
+    background-color: #fccb00;
     padding: 20px; }
     @media (max-width: 1024px) {
       #contact .wpcf7 {
@@ -2053,7 +2093,25 @@ section {
       #contact .social li svg {
         font-size: 4rem; }
         #contact .social li svg path {
-          fill: yellow; }
+          fill: #fccb00; }
+
+#wrapper {
+  background-color: #eeeeee;
+  padding-top: 200px; }
+
+#theme-my-login {
+  margin: 0 auto; }
+  #theme-my-login .message {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 15px; }
+  #theme-my-login label {
+    font-size: 2rem; }
+  #theme-my-login p {
+    margin-bottom: 10px; }
+  #theme-my-login input#wp-submit {
+    background: black;
+    font-family: 'Dugout Sans Bold'; }
 
 footer {
   padding: 75px 0;

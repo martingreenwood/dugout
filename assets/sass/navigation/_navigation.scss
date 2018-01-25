@@ -49,7 +49,7 @@
 	li {
 		float: left;
 		position: relative;
-		margin-left: 10px;
+		// margin-left: 10px;
 		margin-bottom: 0;
 
 		&:hover > a,
@@ -70,7 +70,7 @@
 		text-decoration: none;
 		padding: 10px 15px;
 		font-family: 'Dugout Sans Bold';
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 
 	.current_page_item > a,
@@ -93,10 +93,17 @@
 .hamburger {
 	padding: 0;
 	position: fixed;
-	right: 30px;
-	top: 72px;
-	margin-top: -13px;
+	right: 31px;
+	top: 25px;
 	z-index: 9999;
+
+	@media (#{$bp-larger-than-tablet}) {
+		top: 72px;
+	}
+
+	@media (#{$bp-larger-than-phablet}) {
+		top: 50px;
+	}
 }
 
 .main-navigation.toggled {

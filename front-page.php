@@ -20,6 +20,7 @@ get_header(); ?>
 		<div class="table">
 			<div class="cell middle">
 				<div class="container">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Background--image-mobile.jpg" class="mobile-banner" alt="">
 					<?php
 					while ( have_posts() ) : the_post();
 						get_template_part( 'template-parts/content', 'homepage' );
@@ -268,11 +269,11 @@ get_header(); ?>
 					<?php the_field( 'news_content' ); ?>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="content">
 					<a target="_blank" href="http://www.dugout.com" title="READ THE LATEST PRESS ON DUGOUT">READ THE LATEST PRESS ON DUGOUT</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -323,18 +324,18 @@ get_header(); ?>
 					</a>
 				</div>
 				<div class="columns eight apps">
-					<a href="<?php the_field( 'app_store_url' ); ?>" target="_blank" title="">
+					<a href="<?php the_field( 'app_store_url', 'options' ); ?>" target="_blank" title="">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/app-store.png" alt="">
 					</a>
-					<a href="<?php the_field( 'mac_store_url' ); ?>" target="_blank" title="">
+					<!-- <a href="<?php the_field( 'mac_store_url', 'options' ); ?>" target="_blank" title="">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/mac-store.png" alt="">
-					</a>
-					<a href="<?php the_field( 'google_play_url' ); ?>" target="_blank" title="">
+					</a> -->
+					<a href="<?php the_field( 'google_play_url', 'options' ); ?>" target="_blank" title="">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/play-store.png" alt="">
 					</a>
-					<a href="<?php the_field( 'fire_tv_url' ); ?>" target="_blank" title="">
+					<!-- <a href="<?php the_field( 'fire_tv_url', 'options' ); ?>" target="_blank" title="">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/fire-tv.png" alt="">
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</div>

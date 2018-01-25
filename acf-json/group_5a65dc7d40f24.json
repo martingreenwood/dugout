@@ -6,7 +6,7 @@
             "key": "field_5a65dc83d7d78",
             "label": "",
             "name": "b2b_video",
-            "type": "textarea",
+            "type": "wysiwyg",
             "instructions": "Enter video code below:",
             "required": 0,
             "conditional_logic": 0,
@@ -16,10 +16,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": 6,
-            "new_lines": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         }
     ],
     "location": [
@@ -39,5 +39,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1516625076
+    "modified": 1516801301
 }
