@@ -183,3 +183,10 @@ function staff_cpt() {
 	);
 }
 add_action( 'init', 'staff_cpt' );
+
+
+/* Change Excerpt length */
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );

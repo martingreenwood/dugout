@@ -269,6 +269,25 @@ get_header(); ?>
 					<?php the_field( 'news_content' ); ?>
 				</div>
 			</div>
+			<div class="row">
+				<?php 
+				$args = array( 'post_type' => 'post', 'posts_per_page' => 3 );
+				$loop = new WP_Query( $args );
+				while ( $loop->have_posts() ) : $loop->the_post();
+				?>
+				<div class="columns four story">
+					<a href="<?php the_permalink(); ?>">
+						<?php the_post_thumbnail( 'thumbnail' ) ?>
+						<h3><?php the_title(); ?></h3>
+						<?php the_excerpt(); ?>
+						<button type="button">Read More</button>
+					</a>
+				</div>
+				<?php
+				endwhile;
+				wp_reset_query();
+				?>
+			</div>
 			<!-- <div class="row">
 				<div class="content">
 					<a target="_blank" href="http://www.dugout.com" title="READ THE LATEST PRESS ON DUGOUT">READ THE LATEST PRESS ON DUGOUT</a>

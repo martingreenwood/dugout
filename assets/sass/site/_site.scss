@@ -411,6 +411,48 @@ section {
 	// 	@include topslope();
 	// }
 
+	.story {
+
+		a {
+			display: block;
+			margin: 0;
+			background: transparent;
+			padding: 0;
+
+			img {
+				display: block;
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			h3 {
+				color: white;
+				line-height: 1.1;
+				font-size: 3rem;
+				text-align: left;
+			}
+
+			p {
+				font-size: 1.8rem;
+				color: white;
+				text-align: left;
+			}
+
+			button {
+				width: 100%;
+				background: yellow;
+				margin-top: 20px;
+				font-size: 2rem;
+				color: black;
+				line-height: inherit;
+				height: auto;
+				margin-bottom: 0;
+				border-radius: 0;
+				padding: 5px;
+			}
+		}
+	}
+
 	a {
 		background-color: $secondary-color;
 		color: black;
@@ -819,6 +861,54 @@ section {
 #wrapper {
 	background-color: $light-grey;
 	padding-top: 200px;
+}
+
+#news_story {
+	background: #eeeeee;
+	padding-top: 160px;
+	padding-bottom: 100px;
+
+	.post-thumbnail {
+		margin-bottom: 30px;
+	}
+
+	.post-navigation {
+
+		h2 {
+			display: none;
+		}
+	}
+}
+
+#secondary {
+	background: white;
+	padding: 30px;
+
+	.widget {
+		min-height: 0;
+		margin-bottom: 30px;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		h2.widget-title {
+			font-size: 3rem;
+			margin-bottom: 10px;
+		}
+		
+		ul {
+			list-style: none;
+			margin-bottom: 0;
+
+			li {
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
 }
 
 #theme-my-login {

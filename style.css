@@ -1531,6 +1531,17 @@ h1, h2, h3, h4, h5 {
   text-align: right;
   width: 50%; }
 
+.comment-navigation .nav-previous a, .comment-navigation .nav-next a,
+.posts-navigation .nav-previous a,
+.posts-navigation .nav-next a,
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a {
+  background-color: #fccb00;
+  padding: 2rem 4rem;
+  line-height: 1.2;
+  text-decoration: none;
+  font-size: 2rem; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -1801,6 +1812,35 @@ section {
   background-color: black;
   padding: 75px 0;
   color: white; }
+  #press .story a {
+    display: block;
+    margin: 0;
+    background: transparent;
+    padding: 0; }
+    #press .story a img {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px; }
+    #press .story a h3 {
+      color: white;
+      line-height: 1.1;
+      font-size: 3rem;
+      text-align: left; }
+    #press .story a p {
+      font-size: 1.8rem;
+      color: white;
+      text-align: left; }
+    #press .story a button {
+      width: 100%;
+      background: yellow;
+      margin-top: 20px;
+      font-size: 2rem;
+      color: black;
+      line-height: inherit;
+      height: auto;
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 5px; }
   #press a {
     background-color: #fccb00;
     color: black;
@@ -2098,6 +2138,32 @@ section {
 #wrapper {
   background-color: #eeeeee;
   padding-top: 200px; }
+
+#news_story {
+  background: #eeeeee;
+  padding-top: 160px;
+  padding-bottom: 100px; }
+  #news_story .post-thumbnail {
+    margin-bottom: 30px; }
+  #news_story .post-navigation h2 {
+    display: none; }
+
+#secondary {
+  background: white;
+  padding: 30px; }
+  #secondary .widget {
+    min-height: 0;
+    margin-bottom: 30px; }
+    #secondary .widget:last-of-type {
+      margin-bottom: 0; }
+    #secondary .widget h2.widget-title {
+      font-size: 3rem;
+      margin-bottom: 10px; }
+    #secondary .widget ul {
+      list-style: none;
+      margin-bottom: 0; }
+      #secondary .widget ul li:last-of-type {
+        margin-bottom: 0; }
 
 #theme-my-login {
   margin: 0 auto; }

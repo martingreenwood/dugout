@@ -152,4 +152,14 @@
 		text-align: right;
 		width: 50%;
 	}
+
+	.nav-previous, .nav-next {
+		a {
+			background-color: $secondary-color;
+			padding: 2rem 4rem;
+			line-height: 1.2;
+			text-decoration: none;
+			font-size: 2rem;
+		}
+	}
 }
