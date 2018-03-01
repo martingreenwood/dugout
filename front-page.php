@@ -271,7 +271,8 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<?php 
-				$args = array( 'post_type' => 'post', 'posts_per_page' => 3 );
+				$cnt = 1;
+				$args = array( 'post_type' => 'post', 'posts_per_page' => 6 );
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post();
 				?>
@@ -284,7 +285,10 @@ get_header(); ?>
 					</a>
 				</div>
 				<?php
-				endwhile;
+				if ($cnt % 3 === 0 ) {
+					echo "</div><div class='row'>";
+				}
+				$cnt++; endwhile;
 				wp_reset_query();
 				?>
 			</div>
