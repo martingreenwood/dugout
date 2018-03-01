@@ -20,7 +20,7 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php dugout_posted_on(); ?>
+			<span>Posted on <?php echo get_the_date(); ?></span>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
