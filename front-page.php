@@ -278,9 +278,9 @@ get_header(); ?>
 				?>
 				<div class="columns four story">
 					<a href="<?php the_permalink(); ?>">
-						<?php the_post_thumbnail( 'thumbnail' ) ?>
+						<?php //the_post_thumbnail( 'thumbnail' ) ?>
 						<h3><?php the_title(); ?></h3>
-						<?php the_excerpt(); ?>
+						<?php //the_excerpt(); ?>
 						<button type="button">Read More</button>
 					</a>
 				</div>

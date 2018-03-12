@@ -1456,7 +1456,11 @@ h1, h2, h3, h4, h5 {
       top: 0; }
     .main-navigation ul ul li:hover > ul,
     .main-navigation ul ul li.focus > ul {
-      left: 100%; }
+      left: 100%;
+      -webkit-animation: auMofWkf_draw 3000ms linear 0ms forwards;
+      -moz-animation: auMofWkf_draw 3000ms linear 0ms forwards;
+      -o-animation: auMofWkf_draw 3000ms linear 0ms forwards;
+      animation: auMofWkf_draw 3000ms linear 0ms forwards; }
     .main-navigation ul ul a {
       width: 200px; }
   .main-navigation ul li:hover > ul,
