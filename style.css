@@ -1832,7 +1832,8 @@ section {
       color: white;
       line-height: 1.1;
       font-size: 3rem;
-      text-align: left; }
+      text-align: left;
+      text-transform: capitalize; }
     #press .story a p {
       font-size: 1.8rem;
       color: white;
