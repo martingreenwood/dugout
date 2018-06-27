@@ -3,9 +3,47 @@
     "title": "Videos",
     "fields": [
         {
+            "key": "field_5a65fc282848a",
+            "label": "Video Content",
+            "name": "video_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
             "key": "field_5a65f43320506",
             "label": "Social Video",
             "name": "social_video",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5b30a9bb3d419",
+            "label": "Social Text",
+            "name": "social_text",
             "type": "textarea",
             "instructions": "",
             "required": 0,
@@ -41,9 +79,47 @@
             "new_lines": ""
         },
         {
+            "key": "field_5b30a9c83d41a",
+            "label": "Series Text",
+            "name": "series_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_5a65f46220508",
             "label": "Originals Video",
             "name": "originals_video",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5b30a9e23d41b",
+            "label": "Originals Text",
+            "name": "originals_text",
             "type": "textarea",
             "instructions": "",
             "required": 0,
@@ -79,9 +155,47 @@
             "new_lines": ""
         },
         {
+            "key": "field_5b30a9f63d41c",
+            "label": "Exclusive Text",
+            "name": "exclusive_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_5a65f4b02050a",
             "label": "Archives Video",
             "name": "archives_video",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5b30aa233d41d",
+            "label": "Archive Text",
+            "name": "archive_text",
             "type": "textarea",
             "instructions": "",
             "required": 0,
@@ -117,10 +231,10 @@
             "new_lines": ""
         },
         {
-            "key": "field_5a65fc282848a",
-            "label": "Video Content",
-            "name": "video_content",
-            "type": "wysiwyg",
+            "key": "field_5b30aa383d41e",
+            "label": "Events Text",
+            "name": "events_text",
+            "type": "textarea",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -130,10 +244,10 @@
                 "id": ""
             },
             "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
@@ -153,5 +267,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1516634704
+    "modified": 1529915981
 }

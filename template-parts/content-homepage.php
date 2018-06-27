@@ -9,8 +9,9 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('hero columns five'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('hero'); ?>>
 	<?php
 		the_content();
 	?>
+	<a href="#showreel" class="watch" title=""><i class="far fa-play-circle"></i> Watch the video</a>
 </article>

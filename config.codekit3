@@ -7,7 +7,7 @@
 		"uuidString": "CCE51366-6A2F-4C9E-A206-8C93E6D995D1"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -112,6 +112,46 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/acf-json\/group_5b30c772214bf.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5b30c772214bf-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5b32586e47493.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5b32586e47493-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5b325a3a42547.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5b325a3a42547-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5b325a53f1972.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5b325a53f1972-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/acf-json\/group_5b325a8d2864f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/acf-json\/group_5b325a8d2864f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/acf-json\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -179,11 +219,37 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/Background--image-mobile.jpg": {
+	"\/assets\/img\/B2B-CLIP-2.jpg": {
+		"ft": 16384,
+		"iS": 850400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/B2B-CLIP-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/B2B-CLIP-2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/B2B-CLIP-2.mp4",
+		"oF": 0
+		},
+	"\/assets\/img\/B2B-CLIP-2.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/B2B-CLIP-2.webm",
+		"oF": 0
+		},
+	"\/assets\/img\/background-image-mobile.jpg": {
 		"ft": 16384,
 		"iS": 472822,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/Background--image-mobile.jpg",
+		"oAP": "\/assets\/img\/background-image-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -211,6 +277,48 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/left-white.png": {
+		"ft": 32768,
+		"iS": 190,
+		"oA": 0,
+		"oAP": "\/assets\/img\/left-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/left-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/left-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/left.png": {
+		"ft": 32768,
+		"iS": 216,
+		"oA": 0,
+		"oAP": "\/assets\/img\/left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/mac-store.png": {
 		"ft": 32768,
 		"iS": 46854,
@@ -220,6 +328,39 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/PA-36815248.jpg": {
+		"ft": 16384,
+		"iS": 630400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/PA-36815248.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/PA-36819970.jpg": {
+		"ft": 16384,
+		"iS": 513106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/PA-36819970.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/PA-37038434.jpg": {
+		"ft": 16384,
+		"iS": 722116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/PA-37038434.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/play-store.png": {
@@ -232,6 +373,58 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/img\/right-white.png": {
+		"ft": 32768,
+		"iS": 206,
+		"oA": 0,
+		"oAP": "\/assets\/img\/right-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/right-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/right-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/right.png": {
+		"ft": 32768,
+		"iS": 235,
+		"oA": 0,
+		"oAP": "\/assets\/img\/right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/jquery.fullpage.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/jquery.fullpage.min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/assets\/js\/app-min.js": {
 		"ft": 64,
@@ -250,7 +443,37 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/app-min.js",
 		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/backgroundVideo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/backgroundVideo-min.js",
+		"oF": 0,
 		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.fullpage.extensions.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.fullpage.extensions.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.fullpage.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.fullpage.min-min.js",
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/navigation.js": {
@@ -260,7 +483,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/navigation-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/parallax.min.js": {
@@ -269,6 +492,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/parallax.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/scrolloverflow.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/scrolloverflow.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1053,6 +1286,59 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/video\/B2B-CLIP-2.jpg": {
+		"ft": 16384,
+		"iS": 850400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/video\/B2B-CLIP-2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-2.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-2.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-2.ogv",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-2.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-2.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/HILTON-PARIS-CITY-FILES-v1-WITH-ADVERT-HOTEL-STAY-CTA.webmsd.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/HILTON-PARIS-CITY-FILES-v1-WITH-ADVERT-HOTEL-STAY-CTA.webmsd.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/Suarez-Viber-ENG-SUB.webmsd.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/Suarez-Viber-ENG-SUB.webmsd.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/THREE-CAMPAIGN.webmsd.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/THREE-CAMPAIGN.webmsd.webm",
+		"oF": 0
+		},
 	"\/comments.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1129,16 +1415,6 @@
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
-		},
-	"\/js\/customizer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/customizer-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/languages\/dugout.pot": {
 		"cB": 0,
@@ -1316,7 +1592,8 @@
 	"creationDate": 538054617,
 	"displayValue": "dugout",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-crying"
+	"iconImageName": "meme-crying",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3119,6 +3396,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

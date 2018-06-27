@@ -184,6 +184,21 @@ function staff_cpt() {
 }
 add_action( 'init', 'staff_cpt' );
 
+function casestudy_cpt() {
+	register_post_type( 'casestudy',
+		array(
+			'labels' => array(
+				'name' 			=> __( 'Case Studies' ),
+				'singular_name' => __( 'Case Study' )
+			),
+			'public' 			=> true,
+			'has_archive' 		=> true,
+			'supports' 			=> array( 'title', 'editor', 'thumbnail' ),
+		)
+	);
+}
+add_action( 'init', 'casestudy_cpt' );
+
 
 /* Change Excerpt length */
 function custom_excerpt_length( $length ) {

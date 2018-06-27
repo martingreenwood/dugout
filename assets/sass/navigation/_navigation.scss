@@ -94,18 +94,18 @@
 
 .hamburger {
 	padding: 0;
-	position: fixed;
-	right: 31px;
-	top: 25px;
+	position: absolute;
+	right: 0;
+	top: 8px;
 	z-index: 9999;
 
-	@media (#{$bp-larger-than-tablet}) {
-		top: 72px;
-	}
+	// @media (#{$bp-larger-than-tablet}) {
+	// 	top: 72px;
+	// }
 
-	@media (#{$bp-larger-than-phablet}) {
-		top: 50px;
-	}
+	// @media (#{$bp-larger-than-phablet}) {
+	// 	top: 50px;
+	// }
 }
 
 .main-navigation.toggled {

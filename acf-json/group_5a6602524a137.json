@@ -1,6 +1,6 @@
 {
     "key": "group_5a6602524a137",
-    "title": "Brands \/ Partners",
+    "title": "Brands \/ Agencies \/ Partners \/ Platforms",
     "fields": [
         {
             "key": "field_5a6602872a4b4",
@@ -25,6 +25,50 @@
             "key": "field_5a6602e92a4b5",
             "label": "Brands",
             "name": "brands",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5b30d499ab15f",
+            "label": "Agencies Content",
+            "name": "agencies_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5b30d49fab160",
+            "label": "Agencies",
+            "name": "agencies",
             "type": "gallery",
             "instructions": "",
             "required": 0,
@@ -91,6 +135,50 @@
             "mime_types": ""
         },
         {
+            "key": "field_5b30d5e767a12",
+            "label": "Platform Content",
+            "name": "platform_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5b30d5e467a11",
+            "label": "Platforms",
+            "name": "platforms",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5a660ad0c33f8",
             "label": "Big Image",
             "name": "big_image",
@@ -132,5 +220,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1516636896
+    "modified": 1529927200
 }
