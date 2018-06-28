@@ -48,7 +48,7 @@ get_header(); ?>
 	</section>
 
 	<?php //whoweare ?>
-	<section class="section parallax-container" id="about">
+	<section class="section" id="about">
 
 		<div class="container">
 			<div class="row">
@@ -75,12 +75,12 @@ get_header(); ?>
 	</section>
 
 	<?php //whatwedo ?>
-	<section class="section parallax-container" id="work">
+	<section class="section" id="work">
 		<video loop muted autoplay>
-        	<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-2.mp4" type="video/mp4">
-        	<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-2.webm" type="video/webm">
-        	<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-2.ogv" type="video/ogv">
-    	</video>
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-1.mp4" type="video/mp4">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-1.webm" type="video/webm">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-1.ogv" type="video/ogv">
+		</video>
     	<div class="ovrly"></div>
 		<div class="container">
 			<div class="row">
@@ -194,7 +194,13 @@ get_header(); ?>
 	</section>
 
 	<?php //videocontent ?>	
-	<section class="section parallax-window" id="videosinfo" data-bleed="50" data-parallax="scroll" data-image-src="<?php echo get_stylesheet_directory_uri() . '/assets/img/PA-37038434.jpg'; ?>">
+	<section class="section" id="videosinfo">
+		<video loop muted autoplay>
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-2.mp4" type="video/mp4">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-2.webm" type="video/webm">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-2.ogv" type="video/ogv">
+		</video>
+		<div class="ovrly"></div>
 		<div class="container">
 			<div class="row">	
 				<div class="content">
@@ -212,13 +218,13 @@ get_header(); ?>
 					<?php the_field( 'brands_content' ); ?>
 				</div>
 			</div>
+			<?php
+			//club_icons
+			$images = get_field('brands');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
 			<div class="row">
 				<div class="content">
-					<?php
-					//club_icons
-					$images = get_field('brands');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
-					if( $images ): ?>
 					<ul>
 						<?php foreach( $images as $image ): ?>
 						<li>
@@ -226,9 +232,9 @@ get_header(); ?>
 						</li>
 						<?php endforeach; ?>
 					</ul>
-					<?php endif; ?>
 				</div>
 			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 
@@ -240,13 +246,13 @@ get_header(); ?>
 					<?php the_field( 'agencies_content' ); ?>
 				</div>
 			</div>
+			<?php
+			//club_icons
+			$images = get_field('agencies');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
 			<div class="row">
 				<div class="content">
-					<?php
-					//club_icons
-					$images = get_field('agencies');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
-					if( $images ): ?>
 					<ul>
 						<?php foreach( $images as $image ): ?>
 						<li>
@@ -254,9 +260,9 @@ get_header(); ?>
 						</li>
 						<?php endforeach; ?>
 					</ul>
-					<?php endif; ?>
 				</div>
 			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 
@@ -268,13 +274,13 @@ get_header(); ?>
 					<?php the_field( 'partner_content' ); ?>
 				</div>
 			</div>
+			<?php
+			//club_icons
+			$images = get_field('partners');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
 			<div class="row">
 				<div class="content">
-					<?php
-					//club_icons
-					$images = get_field('partners');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
-					if( $images ): ?>
 					<ul>
 						<?php foreach( $images as $image ): ?>
 						<li>
@@ -282,9 +288,9 @@ get_header(); ?>
 						</li>
 						<?php endforeach; ?>
 					</ul>
-					<?php endif; ?>
 				</div>
 			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 
@@ -296,13 +302,13 @@ get_header(); ?>
 					<?php the_field( 'platform_content' ); ?>
 				</div>
 			</div>
+			<?php
+			//club_icons
+			$images = get_field('platforms');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
 			<div class="row">
 				<div class="content">
-					<?php
-					//club_icons
-					$images = get_field('platforms');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
-					if( $images ): ?>
 					<ul>
 						<?php foreach( $images as $image ): ?>
 						<li>
@@ -310,9 +316,9 @@ get_header(); ?>
 						</li>
 						<?php endforeach; ?>
 					</ul>
-					<?php endif; ?>
 				</div>
 			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 
@@ -356,12 +362,14 @@ get_header(); ?>
 								<h3>The Results</h3>
 								<?php the_field( 'results' ); ?>
 							</div>
+							<?php if (get_field( 'testimonials' )): ?>
 							<div class="columns four testimonials">
 								<h3>Testimonials</h3>
 								<div class="quotes">
 									<?php the_field( 'testimonials' ); ?>
 								</div>
 							</div>
+							<?php endif; ?>
 						</div>
 					</div>
 				</div>
@@ -431,7 +439,7 @@ get_header(); ?>
 				--><li>
 					<?php $name = str_replace(" ", "", strtolower(get_the_title())); ?>
 					<a href="#<?php echo $name ?>">
-						<?php the_post_thumbnail( 'thumbnail' ) ?>
+						<?php the_post_thumbnail('medium') ?>
 						<h3><?php the_title(); ?></h3>
 						<h4><?php the_field( 'role' ); ?></h4>
 					</a>
@@ -460,10 +468,16 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section class="section fp-auto-height-responsive" id="reach">
+	<section class="section" id="reach">
+		<video loop muted autoplay>
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-4.mp4" type="video/mp4">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-4.webm" type="video/webm">
+			<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/video/B2B-CLIP-10-SEC-4.ogv" type="video/ogv">
+		</video>
+		<div class="ovrly"></div>
 		<div class="container">
 			<div class="row">
-				Content
+				&nbsp;
 			</div>
 		</div>
 	</section>

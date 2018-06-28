@@ -330,6 +330,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/origional.jpg": {
+		"ft": 16384,
+		"iS": 253058,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/origional.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/PA-36815248.jpg": {
 		"ft": 16384,
 		"iS": 630400,
@@ -374,6 +385,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/reach.jpg": {
+		"ft": 16384,
+		"iS": 449963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/reach.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/right-white.png": {
 		"ft": 32768,
 		"iS": 206,
@@ -415,6 +437,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/space.jpg": {
+		"ft": 16384,
+		"iS": 833431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/space.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/jquery.fullpage.min.css": {
 		"aP": 1,
@@ -1286,6 +1319,69 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-1.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-1.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-1.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-1.ogv",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-1.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-1.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-2.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-2.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-2.ogv",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-2.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-2.webm",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-4.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-4.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-4.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-4.ogv",
+		"oF": 0
+		},
+	"\/assets\/video\/B2B-CLIP-10-SEC-4.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/B2B-CLIP-10-SEC-4.webm",
+		"oF": 0
+		},
 	"\/assets\/video\/B2B-CLIP-2.jpg": {
 		"ft": 16384,
 		"iS": 850400,
@@ -1429,26 +1525,6 @@
 		"oA": 0,
 		"oAP": "\/languages\/readme.txt",
 		"oF": 0
-		},
-	"\/layouts\/content-sidebar.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/layouts\/content-sidebar-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/layouts\/sidebar-content.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/layouts\/sidebar-content-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/LICENSE": {
 		"cB": 0,

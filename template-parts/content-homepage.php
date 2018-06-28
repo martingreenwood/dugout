@@ -13,5 +13,5 @@
 	<?php
 		the_content();
 	?>
-	<a href="#showreel" class="watch" title=""><i class="far fa-play-circle"></i> Watch the video</a>
+	<a href="#b2bvideo" class="watch" title=""><i class="far fa-play-circle"></i> Watch the video</a>
 </article>
