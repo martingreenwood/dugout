@@ -118,13 +118,9 @@ add_action( 'widgets_init', 'dugout_widgets_init' );
  */
 function dugout_scripts() {
 	wp_enqueue_style( 'dugout-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'dugout-fs', get_template_directory_uri() . '/assets/jquery.fullpage.min.css' );
 	
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'dugout-fa', 'https://use.fontawesome.com/releases/v5.0.4/js/all.js', array(), '', true );
-	// wp_enqueue_script( 'dugout-fsso', get_template_directory_uri() . '/assets/js/scrolloverflow.min.js', array(), '', true );
-	// wp_enqueue_script( 'dugout-fsjs', get_template_directory_uri() . '/assets/js/jquery.fullpage.min.js', array(), '', true );
-	// wp_enqueue_script( 'dugout-fsjsext', get_template_directory_uri() . '/assets/js/jquery.fullpage.extensions.min.js', array(), '', true );
 	wp_enqueue_script( 'dugout-bV', get_template_directory_uri() . '/assets/js/backgroundVideo.js', array(), '', false );
 	wp_enqueue_script( 'dugout-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '', true );
 	wp_enqueue_script( 'dugout', get_template_directory_uri() . '/assets/js/app.js', array(), '', true );

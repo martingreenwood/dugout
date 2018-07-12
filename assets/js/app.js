@@ -61,28 +61,6 @@
 		cssEase: 'linear'
 	});
 
-	// // Add smooth scrolling to all links
-	// $("a").on('click', function(event) {
-	// 	// Make sure this.hash has a value before overriding default behavior
-	// 	if (this.hash !== "") {
-	// 		// Prevent default anchor click behavior
-	// 		event.preventDefault();
-
-	// 		// Store hash
-	// 		var hash = this.hash;
-
-	// 		// Using jQuery's animate() method to add smooth page scroll
-	// 		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	// 		$('html, body').animate({
-	// 		scrollTop: $(hash).offset().top - 143
-	// 		}, 800, function(){
-
-	// 		// Add hash (#) to URL when done scrolling (default click behavior)
-	// 		//window.location.hash = hash;
-	// 	});
-	// 	} // End if
-	// });
-
     /*
      * Replace all SVG images with inline SVG
      */
@@ -125,80 +103,12 @@
 		}
 	});
 
-	var vids = $("#testimonialsbgvid"); 
-	$.each(vids, function(){
-		this.controls = false; 
-	}); 
+	// var vids = $("#testimonialsbgvid"); 
+	// $.each(vids, function(){
+	// 	this.controls = false; 
+	// }); 
 
-	// $('#fullpage').fullpage({
-	// 	//Navigation
-	// 	menu: '#menu',
-	// 	lockAnchors: false,
-	// 	anchors:['home', 'showreel', 'whoweare', 'whatwedo', 'exclusivevideos', 'originalcontent', 'brands', 'agencies', 'partners', 'platforms', 'casestudies', 'inthenews', 'theteam', 'globalreach', 'getintouch'],
-	// 	navigation: true,
-	// 	navigationPosition: 'right',
-	// 	navigationTooltips: ['Home', 'Showreel', 'Who We Are', 'What We Do', 'Exclusive Videos', 'Original Content', 'Brands', 'Agencies', 'Partners', 'Platforms', 'Case Studies', 'In The News', 'The Team', 'Global Reach', 'Get in Touch'],
-	// 	showActiveTooltip: false,
-	// 	slidesNavigation: false,
-	// 	slidesNavPosition: 'bottom',
-
-	// 	//Scrolling
-	// 	css3: true,
-	// 	scrollingSpeed: 700,
-	// 	autoScrolling: true,
-	// 	fitToSection: true,
-	// 	fitToSectionDelay: 0,
-	// 	scrollBar: false,
-	// 	easing: 'easeInOutCubic',
-	// 	easingcss3: 'ease',
-	// 	loopBottom: false,
-	// 	loopTop: false,
-	// 	loopHorizontal: true,
-	// 	continuousVertical: false,
-	// 	continuousHorizontal: false,
-	// 	scrollHorizontally: false,
-	// 	interlockedSlides: false,
-	// 	dragAndMove: false,
-	// 	offsetSections: false,
-	// 	resetSliders: false,
-	// 	fadingEffect: 'slides',
-	// 	normalScrollElements: '#element1, .element2',
-	// 	scrollOverflow: true,
-	// 	scrollOverflowReset: false,
-	// 	scrollOverflowOptions: null,
-	// 	touchSensitivity: 15,
-	// 	normalScrollElementTouchThreshold: 5,
-	// 	bigSectionsDestination: null,
-
-	// 	//Accessibility
-	// 	keyboardScrolling: true,
-	// 	animateAnchor: true,
-	// 	recordHistory: true,
-
-	// 	//Design
-	// 	controlArrows: true,
-	// 	verticalCentered: true,
-	// 	// sectionsColor : ['#ccc', '#fff'],
-	// 	paddingTop: '130px',
-	// 	paddingBottom: '130px',
-	// 	fixedElements: '#masthead',
-	// 	responsiveWidth: 0,
-	// 	responsiveHeight: 0,
-	// 	responsiveSlides: false,
-	// 	parallax: false,
-	// 	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
-
-	// 	//Custom selectors
-	// 	sectionSelector: '.section',
-	// 	slideSelector: '.slide',
-
-	// 	lazyLoading: true,
-
-	// });
-
-	//var headerHeight = $('#masthead').outerHeight();
-	//$('body').css( 'padding-top', headerHeight);
-
+	
 
 	/*
 	* debouncedresize: special jQuery event that happens once after a window resize

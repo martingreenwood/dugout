@@ -1659,11 +1659,10 @@ section {
     position: absolute;
     border: 0;
     height: 100%;
-    width: 100%;
-    display: none; }
+    width: 100%; }
     @media (min-width: 1160px) {
       #banner:before {
-        display: block; } }
+        display: none; } }
   #banner:after {
     border-bottom-color: white; }
   @media (min-width: 1160px) {

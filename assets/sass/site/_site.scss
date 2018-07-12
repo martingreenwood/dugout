@@ -170,10 +170,9 @@ section {
 		border: 0;
 		height: 100%;
 		width: 100%;
-		display: none;
 
 		@media (#{$bp-larger-than-desktop}) {
-			display: block;
+			display: none;
 		}
 	}
 
