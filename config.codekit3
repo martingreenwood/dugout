@@ -255,6 +255,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/background-image-mobile.png": {
+		"ft": 32768,
+		"iS": 1348776,
+		"oA": 0,
+		"oAP": "\/assets\/img\/background-image-mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/dugout.png": {
 		"ft": 32768,
 		"iS": 22447,

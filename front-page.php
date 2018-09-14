@@ -22,7 +22,7 @@ get_header(); ?>
 		<div class="table">
 			<div class="cell middle">
 				<div class="container">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/background-image-mobile.jpg" class="mobile-banner" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/background-image-mobile.png" class="mobile-banner" alt="">
 					<?php
 					while ( have_posts() ) : the_post();
 						get_template_part( 'template-parts/content', 'homepage' );

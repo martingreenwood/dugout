@@ -1647,6 +1647,9 @@ section {
 #banner {
   position: relative;
   background-color: #eeeeee; }
+  @media (max-width: 1160px) {
+    #banner {
+      background-image: none !important; } }
   @media (min-width: 1160px) {
     #banner {
       background-size: 100% auto;

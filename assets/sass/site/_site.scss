@@ -156,6 +156,10 @@ section {
 	position: relative;
 	background-color: $light-grey;
 
+	@media (#{$bp-smaller-than-desktop}) {
+		background-image: none !important;
+	}
+
 	@media (#{$bp-larger-than-desktop}) {
 		background-size: 100% auto;
 		background-position: 150px 100%;
